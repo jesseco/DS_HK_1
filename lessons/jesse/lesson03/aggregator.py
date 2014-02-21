@@ -27,4 +27,4 @@ def ratio(x,y):
 
 df["CTR"] = map(ratio, df["Clicks"], df["Impressions"])
 
-df.to_csv('nytimes_aggregation.csv')
+df.to_csv('~/DScourse/DS_HK_1/data/nytimes_aggregation.csv')

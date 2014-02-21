@@ -4,7 +4,7 @@ from numpy import *
 import pandas as pd
 
 
-for csv in range(1,3)
+for csv in range(1,30)
 	r = reg.get (‘http://stat.columbia.edu/~rachel/datasets/nyt’ + csv + ‘.csv’)
 	r.text
 	df = df.append(pd.read_csv(r.text)))
